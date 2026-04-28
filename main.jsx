@@ -8,7 +8,7 @@ function App() {
     <div className="site">
       <header className="header">
         <div className="brand">
-          <img src="/3m-logo.svg" alt="3M Property Group logo" />
+          <img src="/3mpropertyblueonwhite.jpg" alt="3M Property Group logo" />
           <div>
             <strong>3M Property Group</strong>
             <span>Council & Landlord Housing Solutions</span>
