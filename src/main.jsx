@@ -15,10 +15,10 @@ function App() {
           </div>
         </div>
         <nav>
+          <a href="#about">About</a>
           <a href="#services">Services</a>
           <a href="#councils">Councils</a>
           <a href="#landlords">Landlords</a>
-          <a href="#about">About</a>
           <a href="#contact">Contact</a>
         </nav>
         <a className="btn small" href="#contact">Make an enquiry</a>
