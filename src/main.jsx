@@ -83,11 +83,12 @@ function App() {
           <h3>Why landlords work with us</h3>
           <ul>
             <li><CheckCircle/> Guaranteed Rent</li>
+            <li><CheckCircle/> Quick Turnaround</li>
             <li><CheckCircle/> Property management</li>
             <li><CheckCircle/> Long-term contract</li>
             <li><CheckCircle/> Long-term relationships</li>
             <li><CheckCircle/> No agency fees</li>
-
+            <ul>
           </ul>
         </div>
         <div>
