@@ -82,10 +82,12 @@ function App() {
         <div className="panel dark">
           <h3>Why landlords work with us</h3>
           <ul>
-            <li><CheckCircle/> Reduced void periods</li>
-            <li><CheckCircle/> Professional management</li>
-            <li><CheckCircle/> Protected property standards</li>
+            <li><CheckCircle/> Guaranteed Rent</li>
+            <li><CheckCircle/> Property management</li>
+            <li><CheckCircle/> Long-term contract</li>
             <li><CheckCircle/> Long-term relationships</li>
+            <li><CheckCircle/> No agency fees</li>
+
           </ul>
         </div>
         <div>
