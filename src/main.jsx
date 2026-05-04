@@ -100,15 +100,16 @@ function App() {
 
       <section className="section">
         <p className="eyebrow">Our process</p>
-        <h2>Simple, clear and accountable.</h2>
+        <h2>How it works.</h2>
         <div className="grid four">
-          {['Make your enquiry','Viewing scheduled','Start earning'].map((x,i)=>
-  <div className="step" key={x}>
-    <span>0{i+1}</span>
-    <h3>{x}</h3>
-    <p>Our team keeps the process simple, clear and professional from start to finish.</p>
-  </div>
-)}
+  {['Make your enquiry','Viewing scheduled','Start earning'].map((x,i) => (
+    <div className="step" key={x}>
+      <span>0{i+1}</span>
+      <h3>{x}</h3>
+      <p>Our team keeps the process simple, clear and professional from start to finish.</p>
+    </div>
+  ))}
+</div>
      </section>
       <section className="section about">
   <p className="eyebrow">Our story</p>
