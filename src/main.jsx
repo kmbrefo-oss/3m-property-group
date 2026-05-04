@@ -95,7 +95,6 @@ function App() {
           <p>We support landlords who want a more reliable route to occupancy, better communication and a partner who understands property standards and tenant care.</p>
         </div>
       </section>
-
       <section className="section process">
   <p className="eyebrow">Our process</p>
   <h2>How it works.</h2>
@@ -115,7 +114,7 @@ function App() {
         text: "Agree terms and begin your guaranteed rental income."
       }
     ].map((step, i) => (
-      <div className="processStep" key={step.title}>
+      <div className="processCard" key={step.title}>
         <div className="processNumber">0{i + 1}</div>
         <h3>{step.title}</h3>
         <p>{step.text}</p>
