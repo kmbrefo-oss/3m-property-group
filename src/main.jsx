@@ -87,7 +87,7 @@ function App() {
             <li><CheckCircle/> Property management</li>
             <li><CheckCircle/> Long-term contract</li>
             <li><CheckCircle/> No agency fees</li>
-            <ul>
+          </ul>
         </div>
         <div>
           <p className="eyebrow">For landlords</p>
