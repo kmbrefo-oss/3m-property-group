@@ -102,9 +102,14 @@ function App() {
         <p className="eyebrow">Our process</p>
         <h2>Simple, clear and accountable.</h2>
         <div className="grid four">
-          {['Understand','Match','Prepare','Manage'].map((x,i)=><div className="step" key={x}><span>0{i+1}</span><h3>{x}</h3><p>We keep everyone updated at every stage of the housing journey.</p></div>)}
-        </div>
-      </section>
+          {['Make your enquiry','Viewing scheduled','Start earning'].map((x,i)=>
+  <div className="step" key={x}>
+    <span>0{i+1}</span>
+    <h3>{x}</h3>
+    <p>Our team keeps the process simple, clear and professional from start to finish.</p>
+  </div>
+)}
+     </section>
       <section className="section about">
   <p className="eyebrow">Our story</p>
 
