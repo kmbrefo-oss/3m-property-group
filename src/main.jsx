@@ -111,41 +111,33 @@ function App() {
   ))}
 </div>
      </section>
-      <section id="about" className="section about">
-  <p className="eyebrow">Our story</p>
-  <h2>Why this work means everything to me</h2>
+     <section id="about" className="section about">
+  <div className="aboutInner">
+    <p className="eyebrow">Our story</p>
+    <h2>Why this work means everything to me</h2>
 
-  <blockquote>
-    “I was still a child when I learned that home is not something you can take for granted.”
-  </blockquote>
-  <p>
-    Some of my earliest memories aren’t of school runs or weekend trips — they’re of watching my mum sit at the kitchen table, surrounded by letters she didn’t want me to see.
-  </p>
-  <p>
-    I was under twelve, but I understood enough to know something was very wrong. We were facing eviction.
-  </p>
-  <p>
-    As a single parent, my mum worked hard to keep a roof over our heads. But the private rental market can be unforgiving — insecure tenancies, unpredictable landlords, and homes that fall short of what any family deserves.
-  </p>
-  <p>
-    We were fortunate. We found stable accommodation in time. But I never forgot what it felt like to stand on that edge — and I never forgot the families who didn’t find their footing before they fell.
-  </p>
-  <h3>The foundation of everything we do</h3>
-  <p>
-    That childhood experience became the foundation of 3M Property Group.
-  </p>
+    <blockquote>
+      “I was still a child when I learned that home is not something you can take for granted.”
+    </blockquote>
 
-  <p>
-    Rent-to-rent in the social housing sector is not just a business model to me — it is a direct response to a problem I lived through.
-  </p>
+    <p>Some of my earliest memories aren’t of school runs or weekend trips — they’re of watching my mum sit at the kitchen table, surrounded by letters she didn’t want me to see.</p>
 
-  <p>
-    Every property we take on represents a family who will not have to sit at that kitchen table the way my mum did. Every clean, well-maintained home we provide is the kind of place that my younger self deserved to grow up in.
-  </p>
+    <p>I was under twelve, but I understood enough to know something was very wrong. We were facing eviction.</p>
 
-  <p>
-    This is not just what we do — <strong>it is why we exist.</strong>
-  </p>
+    <p>As a single parent, my mum worked hard to keep a roof over our heads. But the private rental market can be unforgiving — insecure tenancies, unpredictable landlords, and homes that fall short of what any family deserves.</p>
+
+    <p>We were fortunate. We found stable accommodation in time. But I never forgot what it felt like to stand on that edge — and I never forgot the families who didn’t find their footing before they fell.</p>
+
+    <h3>The foundation of everything we do</h3>
+
+    <p>That childhood experience became the foundation of 3M Property Group.</p>
+
+    <p>Rent-to-rent in the social housing sector is not just a business model to me — it is a direct response to a problem I lived through.</p>
+
+    <p>Every property we take on represents a family who will not have to sit at that kitchen table the way my mum did. Every clean, well-maintained home we provide is the kind of place that my younger self deserved to grow up in.</p>
+
+    <p className="closing">This is not just what we do — <strong>it is why we exist.</strong></p>
+  </div>
 </section>
 
       <section id="contact" className="section contact">
