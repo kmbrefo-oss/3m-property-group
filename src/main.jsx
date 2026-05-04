@@ -96,18 +96,34 @@ function App() {
         </div>
       </section>
 
-      <section className="section">
-        <p className="eyebrow">Our process</p>
-        <h2>How it works.</h2>
-        <div className="grid four">
-  {['Make your enquiry','Viewing scheduled','Start earning'].map((x,i) => (
-    <div className="step" key={x}>
-      <span>0{i+1}</span>
-      <h3>{x}</h3>
-      <p>Our team keeps the process simple, clear and professional from start to finish.</p>
-    </div>
-  ))}
-</div>
+      <section className="section process">
+  <p className="eyebrow">Our process</p>
+  <h2>How it works.</h2>
+
+  <div className="processGrid">
+    {[
+      {
+        title: "Make your enquiry",
+        text: "Tell us about your property and your goals."
+      },
+      {
+        title: "Viewing scheduled",
+        text: "We arrange a quick viewing and assess suitability."
+      },
+      {
+        title: "Start earning",
+        text: "Agree terms and begin your guaranteed rental income."
+      }
+    ].map((step, i) => (
+      <div className="processStep" key={step.title}>
+        <div className="processNumber">0{i + 1}</div>
+        <h3>{step.title}</h3>
+        <p>{step.text}</p>
+      </div>
+    ))}
+  </div>
+</section>
+
      </section>
      <section id="about" className="section about">
   <div className="aboutInner">
