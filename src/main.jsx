@@ -123,8 +123,7 @@ function App() {
     ))}
   </div>
 </section>
-
-     </section>
+      
      <section id="about" className="section about">
   <div className="aboutInner">
     <p className="eyebrow">Our story</p>
