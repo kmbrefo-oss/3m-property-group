@@ -114,9 +114,9 @@ function App() {
     <p className="eyebrow">Our story</p>
     <h2>Why this work means everything to me</h2>
 
-    <blockquote>
+    <p>
       “I was still a child when I learned that home is not something you can take for granted.”
-    </blockquote>
+    </p>
 
     <p>Some of my earliest memories aren’t of school runs or weekend trips — they’re of watching my mum sit at the kitchen table, surrounded by letters she didn’t want me to see.</p>
 
