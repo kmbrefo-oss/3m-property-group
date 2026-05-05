@@ -14,6 +14,7 @@ function App() {
             <span>Council & Landlord Housing Solutions</span>
           </div>
         </div>
+
         <nav>
           <a href="#about">About</a>
           <a href="#services">Services</a>
@@ -21,9 +22,10 @@ function App() {
           <a href="#landlords">Landlords</a>
           <a href="#contact">Contact</a>
         </nav>
+
         <a className="btn small" href="#contact">Make an enquiry</a>
       </header>
-      
+
       <section className="hero">
         <div className="heroText">
           <p className="pill"><ShieldCheck size={16}/> Trusted housing support</p>
@@ -34,6 +36,7 @@ function App() {
             <a className="btn ghost" href="#services">Explore services</a>
           </div>
         </div>
+
         <div className="heroCard">
           <h2>Our focus</h2>
           <ul>
@@ -44,38 +47,37 @@ function App() {
         </div>
       </section>
 
-       <section id="about" className="section about">
-  <div className="aboutInner">
-    <p className="eyebrow">Our story</p>
-    <h2>Why this work means everything to me</h2>
+      <section id="about" className="section about">
+        <div className="aboutInner">
+          <p className="eyebrow">Our story</p>
+          <h2>Why this work means everything to me</h2>
 
-    <p>
-      “I was still a child when I learned that home is not something you can take for granted.”
-    </p>
+          <p>“I was still a child when I learned that home is not something you can take for granted.”</p>
 
-    <p>Some of my earliest memories aren’t of school runs or weekend trips — they’re of watching my mum sit at the kitchen table, surrounded by letters she didn’t want me to see.</p>
+          <p>Some of my earliest memories aren’t of school runs or weekend trips — they’re of watching my mum sit at the kitchen table, surrounded by letters she didn’t want me to see.</p>
 
-    <p>I was under twelve, but I understood enough to know something was very wrong. We were facing eviction.</p>
+          <p>I was under twelve, but I understood enough to know something was very wrong. We were facing eviction.</p>
 
-    <p>As a single parent, my mum worked hard to keep a roof over our heads. But the private rental market can be unforgiving — insecure tenancies, unpredictable landlords, and homes that fall short of what any family deserves.</p>
+          <p>As a single parent, my mum worked hard to keep a roof over our heads. But the private rental market can be unforgiving — insecure tenancies, unpredictable landlords, and homes that fall short of what any family deserves.</p>
 
-    <p>We were fortunate. We found stable accommodation in time. But I never forgot what it felt like to stand on that edge — and I never forgot the families who didn’t find their footing before they fell.</p>
+          <p>We were fortunate. We found stable accommodation in time. But I never forgot what it felt like to stand on that edge — and I never forgot the families who didn’t find their footing before they fell.</p>
 
-    <h3>The foundation of everything we do</h3>
+          <h3>The foundation of everything we do</h3>
 
-    <p>That childhood experience became the foundation of 3M Property Group.</p>
+          <p>That childhood experience became the foundation of 3M Property Group.</p>
 
-    <p>Rent-to-rent in the social housing sector is not just a business model to me — it is a direct response to a problem I lived through.</p>
+          <p>Rent-to-rent in the social housing sector is not just a business model to me — it is a direct response to a problem I lived through.</p>
 
-    <p>Every property we take on represents a family who will not have to sit at that kitchen table the way my mum did. Every clean, well-maintained home we provide is the kind of place that my younger self deserved to grow up in.</p>
+          <p>Every property we take on represents a family who will not have to sit at that kitchen table the way my mum did. Every clean, well-maintained home we provide is the kind of place that my younger self deserved to grow up in.</p>
 
-    <p className="closing">This is not just what we do — <strong>it is why we exist.</strong></p>
-  </div>
-</section>
+          <p className="closing">This is not just what we do — <strong>it is why we exist.</strong></p>
+        </div>
+      </section>
 
       <section id="services" className="section">
         <p className="eyebrow">What we do</p>
         <h2>End-to-end housing support for councils and landlords.</h2>
+
         <div className="grid three">
           <Card icon={<Handshake/>} title="Council Partnerships" text="We work with local authority housing teams to source accommodation, coordinate referrals and support smooth placements." />
           <Card icon={<Building2/>} title="Landlord Services" text="We help landlords secure reliable occupancy, manage communication and reduce the pressure of day-to-day letting." />
@@ -92,6 +94,7 @@ function App() {
           <h2>A responsive housing partner for local authority teams.</h2>
           <p>We understand the pressures housing teams face. 3M Property Group helps bridge the gap between urgent housing need and suitable accommodation.</p>
         </div>
+
         <div className="panel">
           <h3>Council support includes:</h3>
           <ul>
@@ -109,60 +112,57 @@ function App() {
           <ul>
             <li><CheckCircle/> Guaranteed Rent</li>
             <li><CheckCircle/> Quick Turnaround</li>
-            <li><CheckCircle/> Property management</li>
-            <li><CheckCircle/> Long-term contract</li>
+            <li><CheckCircle/> Property Management</li>
+            <li><CheckCircle/> Long-term 3–5 year contract</li>
             <li><CheckCircle/> No agency fees</li>
           </ul>
-      
+        </div>
+
         <div>
           <p className="eyebrow">For landlords</p>
           <h2>Let your property with more structure and less stress.</h2>
           <p>We support landlords who want a more reliable route to occupancy, better communication and a partner who understands property standards and tenant care.</p>
         </div>
-      </section>    
-        
-      <section className="section process">
-  <p className="eyebrow">Our process</p>
-  <h2>How it works.</h2>
+      </section>
 
-  <div className="processGrid">
-    {[
-      {
-        title: "Make your enquiry",
-        text: "Tell us about your property and your goals."
-      },
-      {
-        title: "Viewing scheduled",
-        text: "We arrange a quick viewing and assess suitability."
-      },
-      {
-        title: "Start earning",
-        text: "Agree terms and begin your guaranteed rental income."
-      }
-    ].map((step, i) => (
-      <div className="processCard" key={step.title}>
-        <div className="processNumber">0{i + 1}</div>
-        <h3>{step.title}</h3>
-        <p>{step.text}</p>
-      </div>
-    ))}
-  </div>
-</section>
-      
+      <section className="section process">
+        <p className="eyebrow">Our process</p>
+        <h2>How it works.</h2>
+
+        <div className="processGrid">
+          {[
+            { title: 'Make your enquiry', text: 'Tell us about your property and your goals.' },
+            { title: 'Viewing scheduled', text: 'We arrange a quick viewing and assess suitability.' },
+            { title: 'Start earning', text: 'Agree terms and begin your guaranteed rental income.' }
+          ].map((step, i) => (
+            <div className="processCard" key={step.title}>
+              <div className="processNumber">0{i + 1}</div>
+              <h3>{step.title}</h3>
+              <p>{step.text}</p>
+            </div>
+          ))}
+        </div>
+      </section>
+
       <section id="contact" className="section contact">
         <div>
           <p className="eyebrow">Contact us</p>
           <h2>Start a housing partnership today.</h2>
           <p>Whether you are a council housing team or a landlord with a property available, send us your details and we will get back to you.</p>
-          <p><Phone size={18}/> 079 6157 9429</p>
-          <p><Mail size={18}/> A.gaba@3mpropertygroup.co.uk</p>
+          <p><Phone size={18}/> 020 0000 0000</p>
+          <p><Mail size={18}/> hello@3mpropertygroup.co.uk</p>
           <p><MapPin size={18}/> London & surrounding boroughs</p>
         </div>
+
         <form>
           <input placeholder="Full name" />
           <input placeholder="Email" />
           <input placeholder="Phone" />
-          <select><option>I am a council / local authority</option><option>I am a landlord</option><option>Other</option></select>
+          <select>
+            <option>I am a council / local authority</option>
+            <option>I am a landlord</option>
+            <option>Other</option>
+          </select>
           <textarea placeholder="Message"></textarea>
           <button type="button">Submit enquiry</button>
         </form>
@@ -174,7 +174,13 @@ function App() {
 }
 
 function Card({ icon, title, text }) {
-  return <div className="card"><div className="icon">{icon}</div><h3>{title}</h3><p>{text}</p></div>
+  return (
+    <div className="card">
+      <div className="icon">{icon}</div>
+      <h3>{title}</h3>
+      <p>{text}</p>
+    </div>
+  )
 }
 
 createRoot(document.getElementById('root')).render(<App />)
