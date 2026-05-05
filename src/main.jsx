@@ -113,12 +113,14 @@ function App() {
             <li><CheckCircle/> Long-term contract</li>
             <li><CheckCircle/> No agency fees</li>
           </ul>
-        </div>
+      
         <div>
           <p className="eyebrow">For landlords</p>
           <h2>Let your property with more structure and less stress.</h2>
           <p>We support landlords who want a more reliable route to occupancy, better communication and a partner who understands property standards and tenant care.</p>
         </div>
+      </section>    
+        
       <section className="section process">
   <p className="eyebrow">Our process</p>
   <h2>How it works.</h2>
