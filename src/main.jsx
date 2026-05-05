@@ -23,7 +23,7 @@ function App() {
         </nav>
         <a className="btn small" href="#contact">Make an enquiry</a>
       </header>
-
+      
       <section className="hero">
         <div className="heroText">
           <p className="pill"><ShieldCheck size={16}/> Trusted housing support</p>
