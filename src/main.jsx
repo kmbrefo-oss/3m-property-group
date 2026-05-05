@@ -106,18 +106,18 @@ function App() {
         </div>
       </section>
 
-      <section id="landlords" className="section split">
-        <div className="panel dark">
-          <h3>Why landlords work with us</h3>
-          <ul>
-            <li><CheckCircle/> Guaranteed Rent</li>
-            <li><CheckCircle/> Quick Turnaround</li>
-            <li><CheckCircle/> Property Management</li>
-            <li><CheckCircle/> Long-term 3–5 year contract</li>
-            <li><CheckCircle/> No agency fees</li>
-          </ul>
-        </div>
-
+  <section id="landlords" className="section split">
+     <div className="panel dark">
+      <h3>Why landlords work with us</h3>
+      <ul>
+       <li><CheckCircle/> Guaranteed Rent</li>
+       <li><CheckCircle/> Quick Turnaround</li>
+       <li><CheckCircle/> Property Management</li>
+       <li><CheckCircle/> Long-term contract</li>
+       <li><CheckCircle/> No agency fees</li>
+    </ul>
+  </div>
+      
         <div>
           <p className="eyebrow">For landlords</p>
           <h2>Let your property with more structure and less stress.</h2>
