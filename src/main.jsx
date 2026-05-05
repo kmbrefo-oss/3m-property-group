@@ -149,8 +149,8 @@ function App() {
           <p className="eyebrow">Contact us</p>
           <h2>Start a housing partnership today.</h2>
           <p>Whether you are a council housing team or a landlord with a property available, send us your details and we will get back to you.</p>
-          <p><Phone size={18}/> 020 0000 0000</p>
-          <p><Mail size={18}/> hello@3mpropertygroup.co.uk</p>
+          <p><Phone size={18}/> 079 6157 9429</p>
+          <p><Mail size={18}/> A.gaba@3mpropertygroup.co.uk</p>
           <p><MapPin size={18}/> London & surrounding boroughs</p>
         </div>
 
