@@ -36,20 +36,14 @@ function App() {
             <a className="btn ghost" href="#services">Explore services</a>
           </div>
         </div>
-        <h2>Our mission</h2>
-<ul>
-  <li><CheckCircle/> Creating safe, dignified homes for families who need stability most</li>
-  <li><CheckCircle/> Working with landlords who believe housing should change lives</li>
-  <li><CheckCircle/> Making secure housing accessible — because it should never be a privilege</li>
-  <li><CheckCircle/> Turning empty properties into homes filled with purpose</li>
-  <li><CheckCircle/> Protecting landlord investments with guaranteed income and trusted management</li>
-</ul>
         <div className="heroCard">
-          <h2>Our focus</h2>
+          <h2>Our Mission</h2>
           <ul>
-            <li><CheckCircle/> Suitable accommodation for council referrals</li>
-            <li><CheckCircle/> Professional landlord property management</li>
-            <li><CheckCircle/> Compliance, inspections and tenant care</li>
+            <li><CheckCircle/> Creating safe, dignified homes for families who need stability most</li>
+            <li><CheckCircle/> Working with landlords who believe housing should change lives</li>
+            <li><CheckCircle/> Making secure housing accessible — because it should never be a privilege</li>
+            <li><CheckCircle/> Turning empty properties into homes filled with purpose</li>
+            <li><CheckCircle/> Protecting landlord investments with guaranteed income and trusted management</li>
           </ul>
         </div>
       </section>
