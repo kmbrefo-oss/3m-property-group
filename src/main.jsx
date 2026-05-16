@@ -39,13 +39,33 @@ function App() {
         <div className="heroCard">
           <h2>Our Mission</h2>
           <ul>
-            <li><CheckCircle/> Creating safe, dignified homes for families who need stability most</li>
-            <li><CheckCircle/> Working with landlords who believe housing should change lives</li>
-            <li><CheckCircle/> Making secure housing accessible — because it should never be a privilege</li>
-            <li><CheckCircle/> Turning empty properties into homes filled with purpose</li>
-            <li><CheckCircle/> Protecting landlord investments with guaranteed income and trusted management</li>    
-        </div>
-      </section>
+            <li>
+             <CheckCircle size={20} style={{ minWidth: '20px', flexShrink: 0 }} />
+             Creating safe, dignified homes for families who need stability most
+            </li>
+
+            <li>
+             <CheckCircle size={20} style={{ minWidth: '20px', flexShrink: 0 }} />
+             Working with landlords who believe housing should change lives
+           </li>
+
+           <li>
+            <CheckCircle size={20} style={{ minWidth: '20px', flexShrink: 0 }} />
+            Making secure housing accessible — because it should never be a privilege
+           </li>
+
+         <li>
+          <CheckCircle size={20} style={{ minWidth: '20px', flexShrink: 0 }} />
+          Turning empty properties into homes filled with purpose
+        </li>
+
+        <li>
+         <CheckCircle size={20} style={{ minWidth: '20px', flexShrink: 0 }} />
+         Protecting landlord investments with guaranteed income and trusted management
+       </li>
+     </ul>
+    </div>
+   </section>
 
       <section id="about" className="section about">
         <div className="aboutInner">
