@@ -43,8 +43,7 @@ function App() {
             <li><CheckCircle/> Working with landlords who believe housing should change lives</li>
             <li><CheckCircle/> Making secure housing accessible — because it should never be a privilege</li>
             <li><CheckCircle/> Turning empty properties into homes filled with purpose</li>
-            <li><CheckCircle/> Protecting landlord investments with guaranteed income and trusted management</li>
-          </ul>
+            <li><CheckCircle/> Protecting landlord investments with guaranteed income and trusted management</li>    
         </div>
       </section>
 
